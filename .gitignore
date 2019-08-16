@@ -1,0 +1,17 @@
+.idea
+springboot-react-multimodule.iml
+
+backend/target
+backend/backend.iml
+
+frontend/frontend.iml
+frontend/node_modules
+frontend/build
+frontend/target
+frontend/node
+frontend/npm-debug.log
+
+bundle/target
+bundle/bundle.iml
+
+
