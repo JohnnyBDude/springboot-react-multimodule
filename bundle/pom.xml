@@ -60,6 +60,16 @@
                 </goals>
                 <configuration>
                     <mainClass>com.example.backend.BackendApplication</mainClass>
+                    <excludes>
+                        <exclude>
+                            <groupId>com.example</groupId>
+                            <artifactId>backend</artifactId>
+                        </exclude>
+                        <exclude>
+                            <groupId>com.example</groupId>
+                            <artifactId>frontend</artifactId>
+                        </exclude>
+                    </excludes>
                 </configuration>
             </plugin>
         </plugins>
